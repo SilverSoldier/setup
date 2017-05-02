@@ -14,6 +14,10 @@ echo "~~~Restoring aliases ..."
 rm ~/.aliases
 mv ~/.aliases_old ~/.aliases
 
+echo "~~~Restoring git config ..."
+rm ~/.gitconfig
+mv ~/.gitconfig_old ~/.gitconfig
+
 echo "~~~Restoring tmux.conf ..."
 rm ~/.tmux.conf
 mv ~/.tmux.conf_old ~/.tmux.conf

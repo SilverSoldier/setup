@@ -22,6 +22,11 @@ echo "--> Back up old aliases"
 mv ~/.aliases ~/.aliases_old || :
 cp ~/customization/dotfiles/.aliases ~/
 
+echo "--> Back up old gitconifg"
+# Backup old gitconfig
+mv ~/.gitconfig ~/.gitconfig_old || :
+cp ~/customization/dotfiles/.gitconfig ~/
+
 cd
 echo "--> Installing tmux in case not already installed"
 # install tmux
